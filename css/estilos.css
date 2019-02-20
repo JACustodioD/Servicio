@@ -1,0 +1,81 @@
+
+.contenido{
+    height: 90%;
+}
+
+#encabezado{
+  position: center;
+}
+
+.cabecera{
+
+  background-color:  #25756b !important;
+
+}
+#tamSelect{
+  width: 200px !important;
+}
+.titulo{
+  text-shadow: 2px 2px gray;
+  font-size: 50px;
+}
+
+.textoMenu{
+  text-shadow: 1px 1px gray;
+  font-size: 17px;
+}
+.textoMenu:hover{
+ color: #25756b
+
+}
+
+span.titulom{
+    position: relative;
+    left: 800px;
+    top: 70px;
+}
+span.textom{
+    position: relative;
+    left: 500px;
+    top: 160px;
+}
+div.divisionm{
+    position: relative;
+    border: border: 2px solid black;
+    left: 20px;
+}
+.textMV{
+    font-size: 21px;
+}
+.bordeForm{
+    border-bottom: 2px solid  #25756b;
+}
+
+#ContenidoMenu{
+
+    border: 2px solid gray;
+    border-radius: 25px;
+    padding: 15px;
+}
+.tamañoCard{
+    padding: 30px;
+    background-color: rgba( 234, 236, 238,0.5);
+}
+
+#cuerpoLogin{
+  height: 400px;
+  width:700px;
+  margin-top: 50px;
+  border: 3px  #25756b solid;
+}
+
+.Footer{
+  background-color: rgba( 242, 242, 242,0.5);
+  height: 60px; 
+  width:100%; 
+  position:relative; 
+  bottom:; 
+  left:;
+  color: black;
+}
+
