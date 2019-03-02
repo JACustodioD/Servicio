@@ -14,7 +14,7 @@
 <body>
   <div class="container-scroller">
 
-    <?php require_once 'complements/header.php'; ?>
+    <?php require_once 'complements/headerN.php'; ?>
 
 
      <div class=" container-fluid page-body">
@@ -37,7 +37,7 @@
                                   <div class="form-group ">
                                     <label>CURP:</label>
                                     
-                                      <input type="text" class="form-control" name="cont_curp" oninput="validarInput(this)" autocomplete="off"/>
+                                      <input type="text" class="form-control" name="cont_curp" autocomplete="off" required="required" />
 
                                    
                                   </div>
@@ -51,7 +51,7 @@
                                 <div class="col-md-3">
                                   <div class="form-group">
                                     <label>Password:</label>
-                                    <input type="Password" class="form-control" name="cont_pas" />
+                                    <input type="Password" class="form-control" name="cont_pas" required="required"/>
                                   </div>
                                 </div>
                                 </div>
@@ -63,7 +63,7 @@
                                 <div class="col-md-4">
                                   <div class="form-group">
                                   <label>Nombre</label>
-                                  <input type="text" class="form-control" name="cont_nom" onkeypress="return onlyLetters(event);" onpaste="return false"/>
+                                  <input type="text" class="form-control" name="cont_nom"required="required" onpaste="return false"/>
                                   </div>
                                 </div>
                               
@@ -71,13 +71,13 @@
                                 <div class="col-md-4">
                                   <div class="form-group">
                                   <label>Apellido Paterno:</label>
-                                  <input type="text" class=" form-control" name="cont_apa" />
+                                  <input type="text" class=" form-control" name="cont_apa" required="required"/>
                                   </div>
                                 </div>
                                 <div class="col-md-4">
                                   <div class="form-group">
                                   <label>Apellido Materno:</label>
-                                  <input class="form-control" name="cont_ama" />
+                                  <input class="form-control" name="cont_ama" required="required"/>
                                  </div>
                                 </div>
                               </div>
@@ -87,14 +87,14 @@
                                <div class="col-md-4">
                                  <div class="form-group">
                                     <label>Numero de telefono:</label>
-                                    <input type="text" class="form-control" name="cont_tel" onkeypress="return onlyNumbers(event);" onpaste="return false">
+                                    <input type="text" class="form-control" name="cont_tel" required="required" onpaste="return false">
                                    </div>
                                 </div>
                                     
                                 <div class="col-md-6">
                                   <div class="form-group">
                                   <label>Dirección:</label>
-                                  <input type="text" placeholder="Calle, Numero, Colonia" class="form-control"  name="cont_dir" onkeypress="return soloLetras"(event)required="required"/>
+                                  <input type="text" placeholder="Calle, Numero, Colonia" class="form-control"  name="cont_dir" required="required"/>
                                   </div>
                                </div>
                                     </div>

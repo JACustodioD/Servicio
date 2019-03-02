@@ -2,6 +2,6 @@
 session_start();
 
 session_destroy();
-echo "<script> window.location.href='../../Servicio'; </script>";
+echo "<script> window.location.href='../../controlescolar'; </script>";
 
 ?>

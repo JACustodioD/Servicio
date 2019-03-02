@@ -34,7 +34,7 @@ if (isset($_SESSION['user'])) {
                       <div class="col-md-6">
                         <div class="form-group">
                           <label>CURP:</label>
-                          <input type="text" class="form-control" name="alu_curp">    
+                          <input type="text" class="form-control" name="alu_curp" required="required">    
                         </div>
                       </div>
                       <div class="col-md-3">
@@ -49,19 +49,19 @@ if (isset($_SESSION['user'])) {
                       <div class="col-md-4">
                         <div class="form-group ">
                           <label>Nombre (s):</label>
-                          <input  type="text"  class="form-control" name="alu_nom" />
+                          <input  type="text"  class="form-control" name="alu_nom" required="required"/>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
                           <label>Apellido paterno:</label>
-                          <input  type="text" class="form-control" name="alu_apa" />
+                          <input  type="text" class="form-control" name="alu_apa" required="required"/>
                         </div>
                       </div>
                       <div class="col-md-4">
                                   <div class="form-group">
                                     <label>Apellido materno:</label>                                   
-                                      <input  type="text" class="form-control" name="alu_ama" />                             
+                                      <input  type="text" class="form-control" name="alu_ama" required="required"/>                             
                                   </div>
                                 </div>
                     </div>
@@ -82,7 +82,7 @@ if (isset($_SESSION['user'])) {
                       <div class="col-md-4">
                         <div class="form-group">
                           <label>Fecha de nacimiento:</label>   
-                          <input type="date" class="form-control" name="alu_nac">         
+                          <input type="date" class="form-control" name="alu_nac" required="required">         
                         </div>
                       </div>
                       <div class="col-md-4">
@@ -106,21 +106,21 @@ if (isset($_SESSION['user'])) {
                           <div class="col-md-4">
                               <div class="form-group ">
                                   <label>Calle y numero:</label>                                      
-                                   <input  type="text"  class="form-control" name="alu_cal" />
+                                   <input  type="text"  class="form-control" name="alu_cal" required="required"/>
                                           
                               </div>                                    
                           </div>
                           <div class="col-md-4">
                              <div class="form-group ">
                                  <label>Colonia:</label>                                  
-                                  <input  type="text"  class="form-control" name="alu_col" />
+                                  <input  type="text"  class="form-control" name="alu_col" required="required"/>
                                            
                              </div>                                    
                           </div>  
                           <div class="col-md-4">
                               <div class="form-group ">
                                   <label>Municipio / Delegación: </label>                                   
-                                  <input  type="text"  class="form-control" name="alu_mun" />
+                                  <input  type="text"  class="form-control" name="alu_mun" required="required"/>
                                            
                               </div>                                    
                           </div>                                     
@@ -130,7 +130,7 @@ if (isset($_SESSION['user'])) {
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label> E-mail: </label>
-                                    <input type="text" class="form-control" placeholder="nombre@ejemplo.com" name="alu_cor">
+                                    <input type="text" class="form-control" placeholder="nombre@ejemplo.com" name="alu_cor" required="required">
                                     
                                 </div>
                                   
@@ -173,9 +173,9 @@ if (isset($_SESSION['user'])) {
                                      <label>Altura:</label>
                                       <div class="input-group mb-3">
                                         <div class="input-group-prepend">
-                                          <span class="input-group-text" id="inputGroup-sizing-default">Estatura</span>
+                                          <span class="input-group-text" id="inputGroup-sizing-default" required="required">Estatura</span>
                                         </div>
-                                        <input type="text" class="form-control w-50" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default " placeholder="Ej: 1.60" name="alu_est">
+                                        <input type="text" class="form-control w-50" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default " placeholder="Ej: 1.60" name="alu_est" required="required">
                                       </div>                                
                                   </div>
                               </div>
@@ -186,7 +186,7 @@ if (isset($_SESSION['user'])) {
                                         <div class="input-group-prepend">
                                           <span class="input-group-text" id="inputGroup-sizing-default">K.G.</span>
                                         </div>
-                                        <input type="text" class="form-control w-50" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default " placeholder="Ej: 53" name="alu_pes">
+                                        <input type="text" class="form-control w-50" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default " placeholder="Ej: 53" name="alu_pes" required="required">
                                       </div>          
                                   </div>
                               </div>

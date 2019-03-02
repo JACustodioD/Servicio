@@ -37,7 +37,7 @@
         <div class="container">
           <ul class="nav page-navigation">
             <li class="nav-item">
-              <a href="../../Servicio" class="nav-link"><span class="textoMenu">Inicio</span></a>
+              <a href="../../controlescolar" class="nav-link"><span class="textoMenu">Inicio</span></a>
             </li>
            
            

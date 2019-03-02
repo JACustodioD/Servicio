@@ -28,8 +28,8 @@ if (isset($_SESSION['admin'])) {
 					  <div id="CuerpoIS" class="card-body">
 						    <h6 class="card-title">Ingresa tu Usuario y Contraseña</h6>
 						    <form action="../settings/proceso.php?cod=1" method="POST">
-						    	<input class="CajaIS"  type="text" maxlength="20" placeholder="Usuario" name="adm_usr">
-						   		<input  class="CajaIS"type="password" maxlength ="8" placeholder="Password" name="adm_pas"> <span class="icon-key"></span><br><br>
+						    	<input class="CajaIS"  type="text" maxlength="20" placeholder="Usuario" name="adm_usr" required="required">
+						   		<input  class="CajaIS"type="password" maxlength ="8" placeholder="Password" name="adm_pas" required="required"> <span class="icon-key"></span><br><br>
 						   		<input type="submit" id="BotonIS"  class="btn btn-success" name="logAdmin" value="Ingresar">
 						    </form>
 					  </div>

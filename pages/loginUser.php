@@ -27,8 +27,8 @@ if (isset($_SESSION['user'])) {
 					  	<div class="card-body">
 					    	<h6 class="card-title">Ingresa tu CURP y Contraseña</h6>
 					    	<form action="../settings/proceso.php?cod=2" method="POST">
-					    	     <input class="CajaIS" id="curp" type="text" maxlength="20" placeholder="Ingresa CURP" name="cont_curp" required>
-					   			 <input  class="CajaIS"type="password" maxlength ="8" placeholder="Contraseña" name="cont_pas" required> <span class="icon-key"></span><br><br>
+					    	     <input class="CajaIS" id="curp" type="text" maxlength="20" placeholder="Ingresa CURP" name="cont_curp" required="required">
+					   			 <input  class="CajaIS"type="password" maxlength ="8" placeholder="Contraseña" name="cont_pas" required="required"> <span class="icon-key"></span><br><br>
 					   			 <a href="registro_usuarioP.php"><p>¿No tiene cuenta? CLIC AQUI</p></a>
 					   		 	  <input type="submit"  class="btn btn-success" name="logUser" value="Ingresar">
 					    	</form>
